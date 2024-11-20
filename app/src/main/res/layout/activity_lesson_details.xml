@@ -49,6 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginVertical="20dp"
+        android:backgroundTint="@android:color/holo_green_light"
         android:text="MARK COMPLETE"/>
 
 </LinearLayout>
