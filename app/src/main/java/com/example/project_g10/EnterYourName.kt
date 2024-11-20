@@ -1,12 +1,11 @@
 package com.example.project_g10
 
-import android.content.Context.MODE_PRIVATE
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat.startActivity
 import com.example.project_g10.databinding.ActivityEnterYourNameBinding
+import com.google.gson.Gson
 
 class EnterYourName : AppCompatActivity() {
 
@@ -29,6 +28,12 @@ class EnterYourName : AppCompatActivity() {
                 val editor = sharedPreferences.edit()
                 editor.putString("user_name", userName)
                 editor.putBoolean("is_first_time", false)
+
+                val completionStatus = listOf(false, false, false, false, false)
+                val gson = Gson()
+                val completionStatusJson = gson.toJson(completionStatus)
+                editor.putString("COMPLETION_STATUS", completionStatusJson)
+
                 editor.apply()
 
                 // Redirect to the Lessons List screen

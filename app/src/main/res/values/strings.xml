@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">PROJECT_G10</string>
+    <string name="lesson_01_description">In this course, you will learn basics of computer programming and computer science. The concepts you learn apply to any and all programming languages and will be a good base onto which you can build your skills. </string>
+    <string name="lesson_02_description">This course will give you a full introduction into all of the core concepts in python. Follow along with the videos and you\'ll be a python programmer in no time! </string>
+    <string name="lesson_03_description">In this course, we\'ll be looking at database management basics and SQL using the MySQL RDBMS. Throughout the course we\'ll be looking at various topics including schema design, basic C.R.U.D operations, aggregation, nested queries, joins, keys and much more. </string>
+    <string name="lesson_04_description">This complete 134-part JavaScript tutorial for beginners will teach you everything you need to know to get started with the JavaScript programming language. </string>
+    <string name="lesson_05_description">This course will give you a full introduction into all of the core concepts in the C programming language. </string>
+    <string name="lesson_01_url">https://www.youtube.com/watch?v=zOjov-2OZ0E</string>
+    <string name="lesson_02_url">https://www.youtube.com/watch?v=rfscVS0vtbw</string>
+    <string name="lesson_03_url">https://www.youtube.com/watch?v=HXV3zeQKqGY</string>
+    <string name="lesson_04_url">https://www.youtube.com/watch?v=PkZNo7MFNFg</string>
+    <string name="lesson_05_url">https://www.youtube.com/watch?v=KJgsSFOSQv0</string>
 </resources>
